@@ -1,0 +1,37 @@
+# QA Automation Framework Dependencies
+# Python 3.9+
+
+# Core Testing Frameworks
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+allure-pytest==2.13.2
+
+# Web Automation
+selenium==4.16.0
+webdriver-manager==4.0.1
+playwright==1.40.0
+
+# API Testing
+requests==2.31.0
+jsonschema==4.20.0
+faker==21.0.0
+
+# Performance Testing
+locust==2.20.0
+
+# Code Quality
+pylint==3.0.3
+flake8==7.0.0
+black==23.12.1
+isort==5.13.2
+
+# Utilities
+python-dotenv==1.0.0
+PyYAML==6.0.1
+openpyxl==3.1.2
+Pillow==10.1.0
+
+# Reporting
+allure-python-commons==2.13.2
